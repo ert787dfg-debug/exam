@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+#result {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+/* النتيجة حسب الحالة */
+.result-good {
+  color: green;
+}
+
+.result-medium {
+  color: orange;
+}
+
+.result-bad {
+  color: red;
+}
